@@ -14,7 +14,7 @@ const Instagram1 = ({ instagram, dayMode }: Props) => {
           {instagram.igUsername}
         </div>
         <p className={dayMode ? 'text-5xl font-bold text-[hsl(230,17%,14%)]' : 'text-5xl font-bold text-white'}>{instagram.igFollowers}</p>
-        <p className="tracking-[3px] text-sm pb-5">Followers</p>
+        <p className="tracking-[3px] text-sm pb-5">FOLLOWERS</p>
         <div className="flex justify-center items-center text-[hsl(163,72%,41%)] text-xs">
           <img
             src="/assets/images/icon-up.svg"

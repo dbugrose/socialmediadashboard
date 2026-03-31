@@ -878,18 +878,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-\[hsl\(\)\]:hover {
-      background-color: hsl();
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-\[hsl\(225\,100\%\,98\%\)\]:hover {
-      background-color: #f5f7ff;
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-\[hsl\(228\,26\%\,27\%\)\]:hover {
       background-color: #333a57;
     }
@@ -898,12 +886,6 @@
   @media (hover: hover) {
     .hover\:bg-\[hsl\(232\,33\%\,91\%\)\]:hover {
       background-color: #e0e2f0;
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-\[hsl\]:hover {
-      background-color: hsl;
     }
   }
 
