@@ -99,7 +99,7 @@ export default function Home() {
             </p>
           </div>
           <div className={dayMode ?"flex items-end gap-3 text-[hsl(228,12%,44%)]" :"flex items-end gap-3 text-[hsl(0,0%,100%)]"}>
-            Day Mode <ToggleSwitch checked={dayMode} onChange={setDayMode} />
+            {dayMode? "Day Mode" : "Night Mode"} <ToggleSwitch checked={dayMode} onChange={setDayMode} />
           </div>
         </header>
         <div className="grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-4 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
