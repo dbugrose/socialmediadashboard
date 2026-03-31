@@ -10,7 +10,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const X1 = ({ x, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(203,89%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] rounded-md border-t-4 border-[hsl(203,89%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
+        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(203,89%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)] rounded-md border-t-4 border-[hsl(203,89%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex gap-2 text-sm pb-5",
@@ -100,7 +100,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const X2 = ({ x, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -132,7 +132,7 @@ const X2 = ({ x, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: x.xRetweets
                     }, void 0, false, {
                         fileName: "[project]/app/components/X2.tsx",
@@ -178,7 +178,7 @@ const X2 = ({ x, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/X2.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = X2;
@@ -200,7 +200,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const X3 = ({ x, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] hover:bg-[hsl(228,26%,27%)] rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -232,7 +232,7 @@ const X3 = ({ x, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: x.xLikes
                     }, void 0, false, {
                         fileName: "[project]/app/components/X3.tsx",
@@ -278,7 +278,7 @@ const X3 = ({ x, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/X3.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = X3;
@@ -302,7 +302,7 @@ const Instagram1 = ({ instagram, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "rounded-md bg-linear-to-r from-[hsl(37,97%,70%)] to-[hsl(329,70%,58%)] pt-1 cursor-pointer",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: dayMode ? 'h-49 bg-[hsl(227,47%,96%)] text-[hsl(228,12%,44%)] grid rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid h-49 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer',
+            className: dayMode ? 'h-49 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] grid rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid h-49 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)] rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer',
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex gap-2 text-sm pb-5 text-center",
@@ -397,7 +397,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Instagram2 = ({ instagram, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -429,7 +429,7 @@ const Instagram2 = ({ instagram, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: instagram.igLikes
                     }, void 0, false, {
                         fileName: "[project]/app/components/Instagram2.tsx",
@@ -475,7 +475,7 @@ const Instagram2 = ({ instagram, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/Instagram2.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = Instagram2;
@@ -497,7 +497,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Instagram3 = ({ instagram, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -529,7 +529,7 @@ const Instagram3 = ({ instagram, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: instagram.igPageViews
                     }, void 0, false, {
                         fileName: "[project]/app/components/Instagram3.tsx",
@@ -575,7 +575,7 @@ const Instagram3 = ({ instagram, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/Instagram3.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = Instagram3;
@@ -597,7 +597,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Youtube1 = ({ youtube, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(348,97%,39%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] rounded-md border-t-4 border-[hsl(348,97%,39%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
+        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(348,97%,39%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] hover:bg-[hsl(228,26%,27%)] rounded-md border-t-4 border-[hsl(348,97%,39%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex gap-2 text-sm pb-5",
@@ -687,7 +687,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Youtube2 = ({ youtube, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] hover:bg-[hsl(228,26%,27%)] rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -719,7 +719,7 @@ const Youtube2 = ({ youtube, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: youtube.ytLikes
                     }, void 0, false, {
                         fileName: "[project]/app/components/Youtube2.tsx",
@@ -765,7 +765,7 @@ const Youtube2 = ({ youtube, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/Youtube2.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = Youtube2;
@@ -787,7 +787,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Youtube3 = ({ youtube, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] hover:bg-[hsl(228,26%,27%)] rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -819,7 +819,7 @@ const Youtube3 = ({ youtube, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: youtube.ytTotalViews
                     }, void 0, false, {
                         fileName: "[project]/app/components/Youtube3.tsx",
@@ -865,7 +865,7 @@ const Youtube3 = ({ youtube, dayMode })=>{
     }, void 0, true, {
         fileName: "[project]/app/components/Youtube3.tsx",
         lineNumber: 11,
-        columnNumber: 1
+        columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
 _c = Youtube3;
@@ -887,7 +887,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Facebook1 = ({ facebook, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(208,92%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] rounded-md border-t-4 border-[hsl(208,92%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
+        className: dayMode ? 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md border-t-4 border-[hsl(208,92%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid xl:grid-col-1 lg:grid-col-1 h-50 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)] rounded-md border-t-4 border-[hsl(208,92%,53%)] p-5 flex-col justify-center items-center text-center cursor-pointer',
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex gap-2 text-sm pb-5",
@@ -977,7 +977,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Facebook2 = ({ facebook, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)]  text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] hover:bg-[hsl(228,26%,27%)] rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -1009,7 +1009,7 @@ const Facebook2 = ({ facebook, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: facebook.fbPageViews
                     }, void 0, false, {
                         fileName: "[project]/app/components/Facebook2.tsx",
@@ -1077,7 +1077,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Facebook3 = ({ facebook, dayMode })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
+        className: dayMode ? "h-30 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] rounded-md p-5 text-center cursor-pointer" : "h-30 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between pb-5",
@@ -1109,7 +1109,7 @@ const Facebook3 = ({ facebook, dayMode })=>{
                 className: "flex justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-3xl font-bold text-white",
+                        className: dayMode ? 'text-3xl font-bold text-[hsl(230,17%,14%)]' : 'text-3xl font-bold text-white',
                         children: facebook.fbLikes
                     }, void 0, false, {
                         fileName: "[project]/app/components/Facebook3.tsx",

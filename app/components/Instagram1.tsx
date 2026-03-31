@@ -8,7 +8,7 @@ interface Props {
 const Instagram1 = ({ instagram, dayMode }: Props) => {
   return (
     <div className="rounded-md bg-linear-to-r from-[hsl(37,97%,70%)] to-[hsl(329,70%,58%)] pt-1 cursor-pointer">
-    <div className={dayMode ? 'h-49 bg-[hsl(227,47%,96%)] text-[hsl(228,12%,44%)] grid rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid h-49 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)] rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer'}>
+    <div className={dayMode ? 'h-49 bg-[hsl(227,47%,96%)] hover:bg-[hsl(232,33%,91%)] text-[hsl(228,12%,44%)] grid rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer' : 'grid h-49 bg-[hsl(228,28%,20%)] hover:bg-[hsl(228,26%,27%)] text-[hsl(228,34%,66%)] rounded-md p-5 flex-col justify-center items-center text-center cursor-pointer'}>
         <div className="flex gap-2 text-sm pb-5 text-center">
           <img src="/assets/images/icon-instagram.svg" alt="instagram-icon" />
           {instagram.igUsername}
