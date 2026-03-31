@@ -462,7 +462,7 @@ function Home() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-8 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5",
+                    className: "grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-4 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5",
                     children: [
                         data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Facebook1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             facebook: data?.facebook
@@ -505,6 +505,71 @@ function Home() {
                     fileName: "[project]/app/page.tsx",
                     lineNumber: 95,
                     columnNumber: 5
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid xl:grid-cols-4 xl:grid-rows-2 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-4 grid-rows-8 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5",
+                    children: [
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Facebook2, {
+                            facebook: data?.facebook
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 97,
+                            columnNumber: 22
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$X1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            x: data?.x
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 98,
+                            columnNumber: 20
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Instagram1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            instagram: data?.instagram
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 99,
+                            columnNumber: 22
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Youtube1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            youtube: data?.youtube
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 100,
+                            columnNumber: 22
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Facebook1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            facebook: data?.facebook
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 101,
+                            columnNumber: 34
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$X1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            x: data?.x
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 102,
+                            columnNumber: 20
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Instagram1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            instagram: data?.instagram
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 103,
+                            columnNumber: 22
+                        }, this),
+                        data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Youtube1$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            youtube: data?.youtube
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 104,
+                            columnNumber: 22
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 96,
+                    columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {

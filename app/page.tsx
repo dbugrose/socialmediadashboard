@@ -1,11 +1,19 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { ToggleSwitch } from "flowbite-react";
-import Facebook1 from "./components/Facebook1";
+import { ToggleSwitch, createTheme, ThemeProvider } from "flowbite-react";
 import X1 from "./components/X1";
+import X2 from "./components/X2";
+import X3 from "./components/X3";
 import Instagram1 from "./components/Instagram1";
+import Instagram2 from "./components/Instagram2";
+import Instagram3 from "./components/Instagram3";
 import Youtube1 from "./components/Youtube1";
+import Youtube2 from "./components/Youtube2";
+import Youtube3 from "./components/Youtube3";
+import Facebook1 from "./components/Facebook1";
+import Facebook2 from "./components/Facebook2";
+import Facebook3 from "./components/Facebook3";
 
 
 interface DataInterface {
@@ -75,25 +83,42 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={dayMode ? "bg-[hsl(0,0%,100%)] min-h-screen" : "bg-[hsl(230,17%,14%)] min-h-screen"}>
+    <div
+      className={
+        dayMode
+          ? "bg-[hsl(0,0%,100%)] min-h-screen"
+          : "bg-[hsl(230,17%,14%)] min-h-screen"
+      }
+    >
       <main>
         <header className="flex justify-between p-5">
           <div>
-            <p className="font-bold text-3xl">Social Media Dashboard</p>
-            <p className="text-xs text-[hsl(228,34%,66%)]">Total Followers: {data?.totalFollowers}</p>
+            <p className={dayMode ? "font-bold text-3xl text-[hsl(230,17%,14%)]" : "font-bold text-3xl text-[hsl(0,0%,100%)]"}>Social Media Dashboard</p>
+            <p className={dayMode? "text-xs text-[hsl(228,12%,44%)]" :"text-xs text-[hsl(228,34%,66%)]"}>
+              Total Followers: {data?.totalFollowers}
+            </p>
           </div>
-          <div className="flex items-end gap-3">
+          <div className={dayMode ?"flex items-end gap-3 text-[hsl(228,12%,44%)]" :"flex items-end gap-3 text-[hsl(0,0%,100%)]"}>
             Day Mode <ToggleSwitch checked={dayMode} onChange={setDayMode} />
           </div>
         </header>
-        <div className="grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-8 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
-            {data && <Facebook1 facebook={data?.facebook}/>}
-          {data && <X1 x={data?.x} />}
-            {data && <Instagram1 instagram={data?.instagram} />}
-            {data && <Youtube1 youtube={data?.youtube} />}
+        <div className="grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-4 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
+          {data && <Facebook1 facebook={data?.facebook} dayMode={dayMode} />}
+          {data && <X1 x={data?.x} dayMode={dayMode} />}
+          {data && <Instagram1 instagram={data?.instagram} dayMode={dayMode}  />}
+          {data && <Youtube1 youtube={data?.youtube} dayMode={dayMode} />}
         </div>
-    <p className="text-3xl font-bold p-5">Overview - Today</p>
-
+        <p className={dayMode ? "text-3xl font-bold p-5 text-[hsl(230,17%,14%)]" : "text-3xl font-bold p-5 text-[hsl(0,0%,100%)]"}>Overview - Today</p>
+        <div className="grid xl:grid-cols-4 xl:grid-rows-2 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-4 grid-rows-8 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
+          {data && <Facebook2 facebook={data?.facebook} dayMode={dayMode}  />}
+          {data && <Facebook3 facebook={data?.facebook} dayMode={dayMode}  />}
+          {data && <Instagram2 instagram={data?.instagram} dayMode={dayMode}  />}
+          {data && <Instagram3 instagram={data?.instagram} dayMode={dayMode} />}
+          {data && <X2 x={data?.x} dayMode={dayMode} />}
+          {data && <X3 x={data?.x} dayMode={dayMode} />}
+          {data && <Youtube2 youtube={data?.youtube} dayMode={dayMode} />}
+          {data && <Youtube3 youtube={data?.youtube} dayMode={dayMode} />}
+        </div>
       </main>
     </div>
   );

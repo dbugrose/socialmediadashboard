@@ -1,9 +1,35 @@
-import React from 'react'
+import React from "react";
+import { FacebookInterface } from "../page";
 
-const Facebook2 = () => {
-  return (
-    <div>Facebook2</div>
-  )
+interface Props {
+  facebook: FacebookInterface;
+  dayMode: boolean;
 }
 
-export default Facebook2
+const Facebook2 = ({facebook, dayMode}: Props) => {
+  return (
+    <div className="h-30 bg-[hsl(228,28%,20%)] text-[hsl(228,34%,66%)]  rounded-md p-5 text-center cursor-pointer">
+      <div className="flex justify-between pb-5">
+          <p className="text-sm font-bold">Page Views</p>
+          <img
+            src="/assets/images/icon-facebook.svg"
+            alt="facebook-icon"
+            className="w-5 h-5"
+          />
+      </div>
+      <div className="flex justify-between">
+        <p className="text-3xl font-bold text-white">{facebook.fbPageViews}</p>
+        <div className="flex items-end py-5">
+        <img
+            src="/assets/images/icon-up.svg"
+            alt="up-icon"
+            className="flex place-self-center w-2 h-1"
+          />
+        <p className="text-[hsl(163,72%,41%)] text-xs flex">{facebook.fbViewStats}%</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Facebook2;
