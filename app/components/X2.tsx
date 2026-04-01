@@ -23,7 +23,7 @@ const X2 = ({x, dayMode} : Props) => {
         <img
             src="/assets/images/icon-up.svg"
             alt="up-icon"
-            className="flex place-self-center w-2 h-1"
+            className="flex place-self-center w-2 h-1 m-1"
           />
         <p className="text-[hsl(163,72%,41%)] text-xs flex">{x.xRetweetStats}%</p>
         </div>

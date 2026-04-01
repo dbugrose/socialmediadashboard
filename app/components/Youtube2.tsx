@@ -23,7 +23,7 @@ const Youtube2 = ({youtube, dayMode} : Props) => {
         <img
             src="/assets/images/icon-down.svg"
             alt="down-icon"
-            className="flex place-self-center w-2 h-1"
+            className="flex place-self-center w-2 h-1 m-1"
           />
         <p className="text-[hsl(356,69%,56%)] text-xs flex">{youtube.ytLikeStats}%</p>
         </div>

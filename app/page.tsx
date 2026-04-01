@@ -91,24 +91,25 @@ export default function Home() {
       }
     >
       <main>
-        <header className="flex justify-between p-5">
-          <div>
+        <header className="flex justify-between pb-5">
+          <div className="xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
             <p className={dayMode ? "font-bold text-3xl text-[hsl(230,17%,14%)]" : "font-bold text-3xl text-[hsl(0,0%,100%)]"}>Social Media Dashboard</p>
             <p className={dayMode? "text-xs text-[hsl(228,12%,44%)]" :"text-xs text-[hsl(228,34%,66%)]"}>
               Total Followers: {data?.totalFollowers}
             </p>
           </div>
-          <div className={dayMode ?"flex items-end gap-3 text-[hsl(228,12%,44%)]" :"flex items-end gap-3 text-[hsl(0,0%,100%)]"}>
-            {dayMode? "Day Mode" : "Night Mode"} <ToggleSwitch checked={dayMode} onChange={setDayMode} />
+          <div className={dayMode ?"flex items-end gap-3 text-[hsl(228,12%,44%)] xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5" :"flex items-end gap-3 text-[hsl(0,0%,100%)] xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5"}>
+            {dayMode? "Light Mode" : "Dark Mode"} <ToggleSwitch checked={dayMode} onChange={setDayMode}/>
           </div>
         </header>
+
         <div className="grid xl:grid-cols-4 xl:grid-rows-1 lg:grid-cols-4 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 grid-rows-4 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
           {data && <Facebook1 facebook={data?.facebook} dayMode={dayMode} />}
           {data && <X1 x={data?.x} dayMode={dayMode} />}
           {data && <Instagram1 instagram={data?.instagram} dayMode={dayMode}  />}
           {data && <Youtube1 youtube={data?.youtube} dayMode={dayMode} />}
         </div>
-        <p className={dayMode ? "text-3xl font-bold p-5 text-[hsl(230,17%,14%)]" : "text-3xl font-bold p-5 text-[hsl(0,0%,100%)]"}>Overview - Today</p>
+        <p className={dayMode ? "text-3xl font-bold p-5 text-[hsl(230,17%,14%)] xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5" : "text-3xl font-bold p-5 text-[hsl(0,0%,100%)] xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5"}>Overview - Today</p>
         <div className="grid xl:grid-cols-4 xl:grid-rows-2 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-4 grid-rows-8 grid-cols-1 justify-center gap-4 xl:px-40 lg:px-30 md:px-30 sm:px-10 px-5 pb-5">
           {data && <Facebook2 facebook={data?.facebook} dayMode={dayMode}  />}
           {data && <Facebook3 facebook={data?.facebook} dayMode={dayMode}  />}
